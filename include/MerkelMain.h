@@ -26,7 +26,9 @@ class MerkelMain
         std::string currentTime;
 
         // OrderBook orderBook{"test.csv"};
-        OrderBook orderBook{"20200317.csv"};
+        OrderBook orderBook{"../data/20200317.csv"};
+        //OrderBook orderBook{"/home/bjs/Downloads/vcs/coursera/Cpp/CryptoTrade/data/20200317.csv"};
+
 
         Wallet wallet;
 };
