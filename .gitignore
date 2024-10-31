@@ -30,3 +30,25 @@
 *.exe
 *.out
 *.app
+
+# CMake build directory
+/build/
+
+# CMake-generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Log and temporary files
+*.log
+*~
+
+# Editor and OS-specific files
+*.swp
+.DS_Store
+
+# IDE-specific files
+.idea/
+.vscode/
+
